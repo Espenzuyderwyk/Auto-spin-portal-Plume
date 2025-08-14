@@ -1,0 +1,24 @@
+{
+  "name": "plume-auto-spin-bot",
+  "version": "1.0.0",
+  "description": "Auto-spin bot for Plume Portal that runs startSpin() every 10 hours.",
+  "main": "spin-bot.js",
+  "type": "module",
+  "scripts": {
+    "start": "node spin-bot.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.6.1",
+    "ethers": "^6.15.0",
+    "crypto-js": "^4.2.0"
+  },
+  "keywords": [
+    "plume",
+    "spin-bot",
+    "web3",
+    "ethers",
+    "automation"
+  ],
+  "author": "Espenzuyderwyk",
+  "license": "MIT"
+}
