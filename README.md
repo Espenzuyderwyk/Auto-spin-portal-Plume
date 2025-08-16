@@ -1,4 +1,4 @@
-# Portal Plume Auto Spin Bot
+# Portal Plume Auto Spin Bot (Must Have min 2 PLUME) 
 is a Node.js automation tool that calls the `startSpin()` function on the Plume `Spin` contract every fixed interval (default: **10 hours**), sending the specified PLUME amount automatically.
 
 <img width="458" height="258" alt="GxPjrdXaIAMRM0Z" src="https://github.com/user-attachments/assets/7c2e69c0-6499-4472-8dd7-0fee4dc784d8" />
