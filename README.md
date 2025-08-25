@@ -1,5 +1,5 @@
 # Portal Plume Auto Spin Bot (Must Have min 2 PLUME) 
-is a Node.js automation tool that calls the `startSpin()` function on the Plume `Spin` contract every fixed interval (default: **10 hours**), sending the specified PLUME amount automatically.
+is a Node.js automation tool that calls the `startSpin()` function on the Plume `Spin` contract every fixed interval (default: **24 hours**), sending the specified PLUME amount automatically.
 
 <img width="458" height="258" alt="GxPjrdXaIAMRM0Z" src="https://github.com/user-attachments/assets/7c2e69c0-6499-4472-8dd7-0fee4dc784d8" />
 
@@ -10,7 +10,7 @@ This bot is designed to:
 - Automatically manage gas fees or use fixed values.
 
 ## Features
-- **Automatic execution**: Spins at a set interval (e.g., every 10 hours).
+- **Automatic execution**: Spins at a set interval (e.g., every 24 hours).
 - **EIP-1559 support**: Uses `maxFeePerGas` and `maxPriorityFeePerGas`.
 - **State persistence**: Remembers the last successful spin (`spin-state.json`).
 - **Retry mechanism**: 2 min → 5 min → 10 min backoff on failure.
